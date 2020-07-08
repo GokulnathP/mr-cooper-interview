@@ -1,0 +1,49 @@
+Services:
+	id:
+	name:plumper
+	image
+	city:
+	list: Workers
+	Requestes:
+		requestesId
+	
+Workers:
+	id:
+	name:
+	image	
+	Timing;
+	Price:
+	Works:
+		works_id
+
+
+User:
+	id:
+	name:
+	requested:
+		requested_id
+	works:
+		works_id
+
+Works:
+	id
+	 list_service:
+		service_id:
+		workers_id:
+		user_id
+		worker:
+			Rating
+			Reviews
+		User:
+			Rating
+			Review
+		isCompleted
+
+Requested:
+		id
+		user_id
+		service_id	
+
+
+
+	
